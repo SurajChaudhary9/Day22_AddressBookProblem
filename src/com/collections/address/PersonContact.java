@@ -1,15 +1,9 @@
-/**
- *@PROBLEM_STATEMENT : UC
- *@author Suraj Chaudhary
- *@Date 23-Mar-2022
- */
 package com.collections.address;
 
 public class PersonContact {
-	{
-	    String firstName, lastName, address, city, state, email;
-	    int zip;
-	    long phoneNo;
+	String firstName, lastName, address, city, state, email;
+	int zip;
+	long phoneNo;
 
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -74,5 +68,4 @@ public class PersonContact {
 	public String getEmail() {
 		return email;
 	}
-
 }

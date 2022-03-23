@@ -1,5 +1,5 @@
 /**
- *@PROBLEM_STATEMENT : UC1 Create Contact
+ *@PROBLEM_STATEMENT : UC2 Add contact
  *@author Suraj Chaudhary
  *@Date 23-Mar-2022
  */
@@ -46,7 +46,6 @@ public class AddressBookMain {
 		contact.setZip(zip);
 		showContact(contact);
 		sc.close();
-
 	}
 
 	public void showContact(PersonContact contact) {
@@ -60,7 +59,6 @@ public class AddressBookMain {
 		System.out.print("\nPhone Number : " + contact.getPhoneNo());
 		System.out.print("\nE-mail      : " + contact.getEmail());
 		System.out.print("\nZip         : " + contact.getZip());
-
 	}
 
 	public static void main(String[] args) {
